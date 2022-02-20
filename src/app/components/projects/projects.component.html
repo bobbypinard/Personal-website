@@ -1,1 +1,8 @@
-<p>projects works!</p>
+<div *ngFor="let p of projects">
+    <a href="{{ p.link }}">
+        <h2>{{ p.title }}</h2>
+        <p>{{ p.description }}</p>
+        <img src="{{ p.mobilePic }}" alt="" />
+        <img src="{{ p.webPic }}" alt="" />
+    </a>
+</div>
