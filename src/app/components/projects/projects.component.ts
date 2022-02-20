@@ -20,6 +20,13 @@ export class ProjectsComponent implements OnInit {
       description: "A mental health app for writing down thoughts and sending them to the void.",
       mobilePic: "assets/Screenshots/Website - Mobile.png",
       webPic: "assets/Screenshots/Website - Web.png"
+    },
+    {
+      title: "Timeblocking app",
+      link: "/",
+      description: "A productivity app to fill out your day with tasks that syncs with Google Calendar.",
+      mobilePic: "assets/Screenshots/Website - Mobile.png",
+      webPic: "assets/Screenshots/Website - Web.png"
     }
   ]
 
