@@ -1,0 +1,32 @@
+
+#greeting {
+    font-size: xx-large;
+    opacity: 0;
+    transition-duration: .75s;
+}
+
+#greeting:hover {
+    opacity: 1;
+}
+
+#intro {
+    height: 100vh;
+    padding-top: 15vh;
+}
+
+#name {
+    color: #BB342F;
+    font-size: 10vw;
+    opacity: 0;
+    transition-duration: .75s;
+}
+
+
+#name:hover {
+    opacity: 1;
+    transform: translateY(100px);
+}
+
+#traits {
+    color: #e6e8e67e;
+}
