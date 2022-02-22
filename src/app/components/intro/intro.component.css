@@ -1,12 +1,31 @@
 
-#greeting {
-    font-size: xx-large;
-    opacity: 0;
-    transition-duration: .75s;
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
-#greeting:hover {
-    opacity: 1;
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(200%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceDown {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(0);}
 }
 
 #intro {
@@ -14,19 +33,29 @@
     padding-top: 15vh;
 }
 
-#name {
-    color: #BB342F;
-    font-size: 10vw;
-    opacity: 0;
-    transition-duration: .75s;
+#greeting {
+    animation: 1s ease slideInFromLeft;
+    font-size: xx-large;
+    display: block;
 }
 
-
-#name:hover {
-    opacity: 1;
-    transform: translateY(100px);
+#name {
+    animation: .75s ease slideInFromLeft;
+    color: #BB342F;
+    font-size: 10vw;
+    display: block;
 }
 
 #traits {
+    animation: 1s ease slideInFromBottom;
     color: #e6e8e67e;
+    display: block;
+}
+
+#arrowDown {
+    animation: 1s ease bounceDown infinite;
+    font-size: 1.2rem;
+    padding-left: 50%;
+    padding-top: 50%;
+    display: block;
 }
