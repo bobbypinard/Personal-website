@@ -28,6 +28,24 @@
     100% {transform: translateY(0);}
 }
 
+@keyframes lightUpFast {
+    0% {opacity: .1}
+    25% {opacity: 1}
+    100% {opacity: .1}
+}
+
+@keyframes lightUp {
+    0% {opacity: .1}
+    50% {opacity: 1}
+    100% {opacity: .1}
+}
+
+@keyframes lightUpSlow {
+    0% {opacity: .1}
+    75% {opacity: 1}
+    100% {opacity: .1}
+}
+
 #intro {
     height: 100vh;
     padding-top: 15vh;
@@ -52,10 +70,27 @@
     display: block;
 }
 
-#arrowDown {
-    animation: 1s ease bounceDown infinite;
+#arrows {
+    animation: 1.5s ease bounceDown infinite;
     font-size: 1.2rem;
     padding-left: 50%;
     padding-top: 50%;
     display: block;
+    list-style-type: none;
+}
+
+.arrow {
+    line-height: .80;
+}
+
+.arr1 {
+    animation: 1.5s lightUpFast infinite;
+}
+
+.arr2 {
+    animation: 1.5s lightUp infinite;
+}
+
+.arr3 {
+    animation: 1.5s lightUpSlow infinite;
 }
