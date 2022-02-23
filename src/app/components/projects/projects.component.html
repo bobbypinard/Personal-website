@@ -1,8 +1,7 @@
-<div *ngFor="let p of projects">
+<div id="projects" *ngFor="let p of projects">
     <a href="{{ p.link }}">
         <h2>{{ p.title }}</h2>
-        <p>{{ p.description }}</p>
-        <img src="{{ p.mobilePic }}" alt="" />
-        <img src="{{ p.webPic }}" alt="" />
     </a>
+    <img id="mobilePic" src="{{ p.mobilePic }}" alt="" />
+    <img id="webPic" src="{{ p.webPic }}" alt="" />
 </div>
