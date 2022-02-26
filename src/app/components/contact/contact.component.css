@@ -5,6 +5,10 @@ input {
     background-color: #0e131b;
 }
 
+#name {
+    margin-bottom: .5rem;
+}
+
 #message {
     height: 10rem;
 }
