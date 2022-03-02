@@ -1,14 +1,22 @@
-
+form {
+    margin-bottom: 1rem;
+}
 
 input {
     border: none;
     background-color: #0e131b;
+    color: #E6E8E6;
 }
 
-#name {
-    margin-bottom: .5rem;
+.input {
+    display: block;
+    width: 99vw;
 }
 
-#message {
-    height: 10rem;
+.name, .email {
+    height: 2rem;
+}
+
+.message {
+    padding-bottom: 10rem;
 }
