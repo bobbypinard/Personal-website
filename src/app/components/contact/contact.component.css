@@ -8,15 +8,26 @@ input {
     color: #E6E8E6;
 }
 
-.input {
+input[name=name],
+input[name=email],
+input[name=message] {
     display: block;
     width: 99vw;
 }
 
-.name, .email {
+input[name=name],
+input[name=email] {
     height: 2rem;
 }
 
-.message {
+input[name=message] {
     padding-bottom: 10rem;
+}
+
+input[type=submit] {
+    border: 3px solid #0e131b;
+}
+
+input[type=submit]:hover {
+    border: 3px solid #161e2b;
 }
