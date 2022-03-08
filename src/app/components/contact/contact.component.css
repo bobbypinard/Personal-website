@@ -1,5 +1,12 @@
 form {
-    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 1rem 0;
+}
+
+h1 {
+    text-align: center;
 }
 
 input {
@@ -13,6 +20,7 @@ input[name=email],
 input[name=message] {
     display: block;
     width: 99vw;
+    max-width: 600px;
 }
 
 input[name=name],

@@ -40,6 +40,7 @@ h2 {
     margin-left: 10vw;
     width: 80vw;
     margin-bottom: -10vh;
+    max-width: 500px;
     animation: 1s ease slideInFromRight;
     float: right;
 }
