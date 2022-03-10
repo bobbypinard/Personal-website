@@ -47,8 +47,10 @@
 }
 
 #intro {
+    margin: -7px;
     height: 100vh;
     padding-top: 15vh;
+    background-image: url("../../../assets/Intro-background.jpg");
 }
 
 #greeting {
