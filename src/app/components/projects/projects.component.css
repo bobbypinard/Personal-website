@@ -50,3 +50,15 @@ h2 {
     width: 80vh;
     z-index: -1;
 }
+
+.reveal {
+    position: relative;
+    transform: translatey(150px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
