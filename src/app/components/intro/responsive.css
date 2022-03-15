@@ -1,0 +1,15 @@
+@media screen and (min-width: 1000px) {
+    #greeting {
+        animation: 1s ease slideInFromTop;
+    }
+    #name {
+        font-size: 7rem;
+    }
+    section {
+        margin-left: 10%;
+    }
+    .arrows {
+        margin-left: 10vw;
+        margin-top: 10vh;
+    }
+}

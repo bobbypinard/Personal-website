@@ -22,6 +22,17 @@
     }
 }
 
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-200%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 @keyframes bounceDown {
     0% {transform: translateY(0);}
     50% {transform: translateY(10px);}
@@ -62,7 +73,7 @@
 
 #name {
     animation: .75s ease slideInFromLeft;
-    color: #BB342F;
+    color: #e2394f;
     font-size: 10vw;
     display: block;
 }
@@ -80,8 +91,8 @@
     user-select: none; /* Standard */
     animation: 1.5s ease bounceDown infinite;
     font-size: 1.2rem;
-    padding-left: 50%;
-    padding-top: 50%;
+    margin-left: 50%;
+    margin-top: 50%;
     display: block;
     list-style-type: none;
 }
